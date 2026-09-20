@@ -42,18 +42,14 @@ public class Main {
                 diff = diff * -1;
             }
 
-
-            System.out.printf("%-15s",cameras[cam],diff);
+            System.out.printf("%-15s",cameras[cam]);
             System.out.printf("%-15s",diff);
 
             if (diff>= 2500){
 
                 System.out.println(" ***");
             }
-
             System.out.println();
-
-
         }
         System.out.println("--------------------------------------------------");
     }
